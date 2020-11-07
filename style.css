@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(243, 243, 243);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.instagram-wrapper {
+    margin-top: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+
+}
+
+.instagram-phone {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 50%;
+    padding: 16px;
+}
+
+.instagram-logo {
+    width: 200px;
+    display: block;
+    margin: 12px auto;
+}
+
+.instagram-phone img {
+    height: 50rem;
+}
+
+
+.instagram-continue {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: white;
+    margin: 16px;
+    border: 1px solid rgb(219, 219, 219);
+    width: 350px;
+    min-width: 350px;
+    padding: 16px 0;
+}
+
+.profile-photo img {
+    margin: 12px auto;
+    display: flex;
+    border-radius: 50%;
+    width: 100px;
+}
+
+.instagram-login {
+    background-color: #0095f6;
+    display: block;
+    margin: 24px 42px;
+    border-radius: 4px;
+    padding: 8px;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+}
+
+.not-account {
+    text-align: center;
+}
+
+.link-blue {
+    color: #0095f6;
+
+}
+
+.group {
+    width: 100%;
+}
+
+
+.instagram-footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 48px;
+}
+
+.footer-links {
+    margin: 8px;
+}
+
+.footer-links .footer-item {
+    margin: 0 12px;
+    text-decoration: none;
+    color: rgb(142, 142, 142);
+    font-size: 12px;
+    border: none;
+    background-color: transparent;
+}
+
+
+@media (max-width: 992px) {
+    .instagram-phone {
+        display: none;
+    }
+
+    .instagram-continue {
+        margin: auto;
+    }
+
+    .footer-links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer-links .footer-item{
+        padding: 12px;
+    }
+
+}

@@ -1,0 +1,27 @@
+{
+  "name": "instagram-clone-html",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "grunt serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jailsonsilveira/instagram-login-clone.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jailsonsilveira/instagram-login-clone/issues"
+  },
+  "homepage": "https://github.com/jailsonsilveira/instagram-login-clone#readme",
+  "devDependencies": {
+    "grunt": "^1.3.0",
+    "grunt-contrib-compass": "^1.1.1",
+    "grunt-contrib-connect": "^3.0.0",
+    "grunt-contrib-uglify": "^5.0.0",
+    "grunt-contrib-watch": "^1.1.0"
+  }
+}
